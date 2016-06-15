@@ -1,0 +1,73 @@
+*{
+	box-sizing:border-box;
+	text-align: center;
+	font-family:comic sans ms;
+}
+body{
+	background-image:url('../Img/wall.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:bottom;
+}
+#play{
+	width:120px;
+	height:40px;
+	border-radius:12px 0 12px 0;
+	background: #FE8DF3;
+	border:none;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+}
+#remarq{
+	height:50px;
+}
+#pendu{
+	height:300px;
+}
+img{
+	height:300px;
+}
+
+.alpha { 
+	width:40px;
+	height:40px;
+}
+
+#mot {
+	top:200px;
+	height:100px;
+	display:flex;
+	justify-content:space-around;
+}
+
+#mot td {
+	height:100px;
+	border-bottom:3px solid black;
+	font-size:2.3em;
+	width:80px;
+}
+
+ #mot p{
+	display:none;
+	margin-bottom:0px;
+}
+
+#lettres{
+	margin:0 auto;
+	padding:10px;
+}
+
+.active{
+     color: #000;
+     background: #B06FAA;
+     box-shadow: 1px 1px 10px ligthblue inset, 0 1px 0 rgba( 255, 255, 255, 0.4);
+	 border: 1px inset black;
+}
+
+/*button{
+	background: #01B0F0;
+}*/
+
+button:hover{
+	font-weight:bold;
+}
